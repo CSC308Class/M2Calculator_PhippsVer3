@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var operand2TextField: UITextField!
     
+    
     @IBOutlet weak var selectOperator: UIButton!
     
     @IBAction func operatorButton(_ sender: Any) {
@@ -30,7 +31,6 @@ class ViewController: UIViewController {
         actionSheet.addAction(divideAction)
         present(actionSheet, animated: true)
     }
-    
     
     @IBOutlet weak var resultLabel: UITextField!
     
